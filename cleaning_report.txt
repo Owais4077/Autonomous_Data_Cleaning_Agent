@@ -1,0 +1,23 @@
+============================================================
+DATA CLEANING REPORT
+============================================================
+
+Original Data Shape: 15 rows × 5 columns
+Cleaned Data Shape:  13 rows × 5 columns
+Rows Removed: 2
+
+Missing Values Before:
+  Name: 1
+  Age: 1
+  Salary: 1
+  Joining_Date: 1
+
+Missing Values After:
+  City: 13
+
+Column Types Detected:
+  numeric: Age, Salary
+  datetime: City
+  text: Name, Joining_Date
+
+Data Quality Score: 93.33%

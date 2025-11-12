@@ -1,0 +1,24 @@
+=======================================
+      Data Cleaning Summary Report     
+=======================================
+
+Original Dataset Dimensions: 15 rows, 5 columns
+Cleaned Dataset Dimensions:  13 rows, 5 columns
+
+Duplicate Rows Removed: 2
+
+Missing Values Analysis:
+------------------------
+Column          | Before | After
+----------------|--------|------
+Name            | 1      | 0    
+Age             | 1      | 0    
+Salary          | 1      | 0    
+City            | 0      | 13   
+Joining_Date    | 1      | 0    
+
+Cleaning Actions:
+- Handled missing values in 'Age' and 'Salary' columns.
+- Standardized capitalization in the 'City' column.
+- Ensured 'Joining_Date' is in a consistent format.
+- Removed duplicate records.

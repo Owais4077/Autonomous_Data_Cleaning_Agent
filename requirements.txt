@@ -1,0 +1,6 @@
+pandas
+pandasai
+matplotlib
+seaborn
+openai
+python-dotenv
